@@ -7,6 +7,7 @@
         "docker:stop": "docker container stop $(docker container list -q)",
         "tsc:dev": "cd assets && npx tsc -W -p tsconfig.json",
         "tsc:lint": "cd assets && npx eslint ./src --ext .js,.ts",
-        "tsc:format": "cd assets && npx prettier --write ./src"
+        "tsc:format": "cd assets && npx prettier --write ./src",
+        "util:rename": "docker-compose run web mix rename"
     }
 }

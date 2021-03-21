@@ -1,5 +1,12 @@
-# Demo - Elixir and Phoenix
-Runs a Phoenix application and PostgreSQL database inside a docker container for easy development setup.
+# Elixir and Phoenix boilerplate
+Boilerplate for a Phoenix application with a PostgreSQL database. Runs in a
+docker container for easy setup and development.
+
+## Features
+* Docker
+* Typescript
+* Eslint
+* Prettier
 
 ## Setup
 > Depending on your installation, you might need to add `sudo` before each docker commmand.
@@ -41,3 +48,5 @@ Runs a Phoenix application and PostgreSQL database inside a docker container for
 * `npm run tsc:dev` - watches for changes to source files and reports errors
 * `npm run tsc:lint` - lints all source files in `/src`
 * `npm run tsc:format` - formats all source files in `/src` using prettier
+* `npm run util:rename <OldAppName> <NewAppName> <old_app_otp> <new_app_otp>` - rename the phoenix application, [usage docs](https://github.com/MainShayne233/rename)
+
