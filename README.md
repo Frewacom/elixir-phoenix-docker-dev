@@ -38,4 +38,6 @@ Runs a Phoenix application and PostgreSQL database inside a docker container for
 * `npm run docker:dev` - starts the docker container
 * `npm run docker:start` - starts the docker container in the background
 * `npm run docker:stop` - stops all running docker containers
-* `npm run tsc:watch` - watches for changes to source files and reports errors
+* `npm run tsc:dev` - watches for changes to source files and reports errors
+* `npm run tsc:lint` - lints all source files in `/src`
+* `npm run tsc:format` - formats all source files in `/src` using prettier
