@@ -36,4 +36,6 @@ Runs a Phoenix application and PostgreSQL database inside a docker container for
 * `npm run docker:shell` - opens an interactive shell in the docker container
 * `npm run docker:migrate` - starts a migration of the database using Ecto
 * `npm run docker:dev` - starts the docker container
+* `npm run docker:start` - starts the docker container in the background
+* `npm run docker:stop` - stops all running docker containers
 * `npm run tsc:watch` - watches for changes to source files and reports errors

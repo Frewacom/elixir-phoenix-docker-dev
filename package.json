@@ -2,7 +2,9 @@
     "scripts": {
         "docker:shell": "docker-compose exec web sh",
         "docker:dev": "docker-compose up",
+        "docker:start": "docker-compose up -d",
         "docker:migrate": "docker-compose run web mix ecto.migrate",
+        "docker:stop": "docker container stop $(docker container list -q)",
         "tsc:watch": "./assets/node_modules/typescript/bin/tsc -W -p ./assets/tsconfig.json"
     }
 }
