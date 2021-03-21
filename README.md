@@ -15,11 +15,15 @@ Runs a Phoenix application and PostgreSQL database inside a docker container for
     ```
     $ docker-compose build
     ```
-4. Create the PostgreSQL database:
+4. Start the container to install Elixir dependencies
+    ```
+    $ docker-compose up
+    ```
+5. Stop the container and create the PostgreSQL database:
     ```
     $ docker-compose run web mix ecto.create
     ```
-5. Start the container:
+6. Start the container again:
     ```
     $ docker-compose up
     ```
