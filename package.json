@@ -1,1 +1,7 @@
-{}
+{
+    "scripts": {
+        "docker:shell": "docker-compose exec web sh",
+        "docker:dev": "docker-compose up",
+        "docker:migrate": "docker-compose run web mix ecto.migrate"
+    }
+}

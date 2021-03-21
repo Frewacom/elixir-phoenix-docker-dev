@@ -31,3 +31,8 @@ Runs a Phoenix application and PostgreSQL database inside a docker container for
     ```
     localhost:4000
     ```
+
+## Commands
+* `npm run docker:shell` - opens an interactive shell in the docker container
+* `npm run docker:migrate` - starts a migration of the database using
+* `npm run docker:dev` - starts the docker container
